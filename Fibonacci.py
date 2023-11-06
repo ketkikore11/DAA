@@ -48,3 +48,5 @@ end_time = time.time()
 print("Fibonacci Sequence (Recursive) up to position {n}:")
 print(fibonacci_recursive)
 print("Time taken (Recursive):", end_time - start_time, "seconds")
+
+##Time Complexity : recursive= O(2^n) , non recursive= O(n)
